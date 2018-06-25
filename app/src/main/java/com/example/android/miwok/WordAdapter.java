@@ -24,7 +24,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         View listItemView = convertView;
 
         if(listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.wordlist,parent,false);
         }
 
         // Get the {@link Word} object located at this position in the list
